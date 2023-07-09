@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://api.fontshare.com/v2/css?f[]=general-sans@500,600,400,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles/modern-normalize.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/components/header.css" />
+    <link rel="stylesheet" href="./styles/components/hero.css" />
+    <link rel="stylesheet" href="./styles/components/about.css" />
+    <link rel="stylesheet" href="./styles/components/featured.css" />
+    <link rel="stylesheet" href="./styles/components/work.css" />
+    <link rel="stylesheet" href="./styles/components/contact.css" />
+    <link rel="stylesheet" href="./styles/components/footer.css" />
+    <link rel="stylesheet" href="./styles/components/mobile-nav.css" />
+    <link rel="stylesheet" href="./styles/utils.css" />
+    <title>HELLO!</title>
+  </head>
+  <body>
+    <header class="header container">
+      <nav>
+        <ul class="header__menu">
+          <li><a class="header__link" href="#about">About</a></li>
+          <li><a class="header__link" href="#featured">Work</a></li>
+          <li><a class="header__link" href="#contact">Contact</a></li>
+          <li id="theme-toggle">
+            <i class="fa-solid fa-circle-half-stroke header__mode-btn"></i>
+          </li>
+          <li><a href="#" class="header__resume btn">Resume</a></li>
+        </ul>
+        <div class="header__bars">
+          <i class="fa-solid fa-bars-staggered"></i>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Mobile Navigation -->
+    <div class="mobile-nav">
+      <nav>
+        <ul class="mobile-nav__menu">
+          <li>
+            <a href="#about" class="mobile-nav__link">About</a>
+          </li>
+          <li>
+            <a href="#featured" class="mobile-nav__link">Work</a>
+          </li>
+          <li>
+            <a href="#contact" class="mobile-nav__link">Contact</a>
+          </li>
+          <li class="mobile-nav__link-line"></li>
+          <li class="mobile-nav__mode-btn" id="theme-toggle">
+            <i class="fa-solid fa-circle-half-stroke"></i>
+          </li>
+          <li>
+            <a href="#" class="mobile-nav__btn btn">Resume</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <!-- End of Mobile Navigation -->
+
+    <main>
+      <section class="hero container">
+        <img
+          loading="lazy"
+          class="hero__img"
+          src="./assets/myimg.jpg"
+          alt="Profile Photo"
+        />
+        <h2 class="hero__subtitle">Hi, I'm Bhumi 👋</h2>
+        <h1 class="hero__title">
+          FRONT-END <br />
+          WEB DEVELOPER.
+        </h1>
+        <p class="hero__description">
+          A passionate <strong>Frontend / Full-Stack </strong> web developer and
+          ethusiast specialized in building stunning, pixel perfect, interactive
+          websites / user-interfaces
+        </p>
+        <a href="#" class="hero__btn btn">Reach Out</a>
+      </section>
+      <section id="about" class="about container section">
+        <div class="about__content">
+          <h2 class="about__title">About me</h2>
+          <p class="about__description">
+            I'm Bhuminandan, a
+            <strong> frontend-focused full stack developer.</strong> Passionate
+            about innovative designs, I specialize in HTML, CSS, JavaScript,
+            Bootstrap, and React.
+          </p>
+          <p class="about__description">
+            With an eye for detail, I create captivating user experiences. I
+            stay up-to-date with the latest trends to balance functionality and
+            aesthetics.
+          </p>
+          <p class="about__description">
+            Let's harness our combined strengths and create digital solutions
+            that not only meet but exceed expectations.
+            <a>Together, we can achieve greatness and leave a positive mark </a
+            >on the digital world.
+          </p>
+          <hr class="about__hr" />
+          <h3 class="about__subtitle">Technologies</h3>
+          <div class="about__us-container">
+            <ul class="about__ul">
+              <li class="about__list">Java</li>
+              <li class="about__list">Html5</li>
+              <li class="about__list">CSS</li>
+            </ul>
+            <ul class="about__ul">
+              <li class="about__list">JavaScript</li>
+              <li class="about__list">React Js</li>
+              <li class="about__list">SQL</li>
+            </ul>
+          </div>
+        </div>
+        <div class="about__img-wrapeer">
+          <img
+            loading="lazy"
+            class="about__img"
+            src="./assets/profile-pic (1).png"
+            alt=""
+          />
+        </div>
+      </section>
+      <section id="featured" class="featured container section">
+        <h3 class="featured__subtitle">Featured Project</h3>
+        <div class="featured__wrapper">
+          <h2 class="featured__title">Sidcup Family Golf</h2>
+          <a href="https://bhuminandan.github.io/sidcup/" target="_blank">
+            <i class="fa-solid fa-link featured__link"></i>
+          </a>
+        </div>
+        <p class="featured__description">
+          SidcupFamilyGolf Clone is an innovative web project that combines
+          HTML, CSS, and JavaScript, along with vanilla JS and GSAP, to create a
+          visually stunning experience. This modern art-inspired design features
+          advanced visual effects and captivating animations, pushing the
+          boundaries of creativity. The result is a dynamic and interactive
+          website that leaves visitors in awe of its advanced visual
+          storytelling.
+        </p>
+        <div class="featured__info-container">
+          <div>
+            <h3 class="featured__label">Tech stack</h3>
+            <ul class="featured__tech-stack">
+              <li class="featured__info">Html5</li>
+              <li class="featured__info">CSS</li>
+              <li class="featured__info">JavaScript</li>
+              <li class="featured__info">Vanilla.js Tilt</li>
+              <li class="featured__info">Gsap</li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="featured__label">Project type</h3>
+            <p class="featured__info">Modern art</p>
+          </div>
+          <div>
+            <h3 class="featured__label">Timeline</h3>
+            <p class="featured__info">May 2023</p>
+          </div>
+        </div>
+        <div class="featured__img-container">
+          <div class="featured__img-wrapper">
+            <img
+              loading="lazy"
+              src="./assets/featured project img (1).png"
+              alt="Featured project screenshot hero section"
+            />
+          </div>
+          <div class="featured__img-wrapper">
+            <img
+              loading="lazy"
+              src="./assets/featured project img (2).png"
+              alt="Featured project screenshot about section"
+            />
+          </div>
+          <div class="featured__img-wrapper">
+            <img
+              loading="lazy"
+              src="./assets/featured project img (3).png"
+              alt="Featured project screenshot cards section"
+            />
+          </div>
+          <div class="featured__img-wrapper">
+            <img
+              loading="lazy"
+              src="./assets/featured project img (4).png"
+              alt="Featured project screenshot green block section"
+            />
+          </div>
+          <div class="featured__img-wrapper">
+            <img
+              loading="lazy"
+              src="./assets/featured project img (5).png"
+              alt="Featured project screenshot carousel info section"
+            />
+          </div>
+          <div class="featured__img-wrapper">
+            <img
+              loading="lazy"
+              src="./assets/featured project img (6).png"
+              alt="Featured project screenshot quama paragraph section"
+            />
+          </div>
+          <div class="featured__img-wrapper">
+            <img
+              loading="lazy"
+              src="./assets/featured project img (7).png"
+              alt="Featured project screenshot small cards secion"
+            />
+          </div>
+          <div class="featured__img-wrapper">
+            <img
+              loading="lazy"
+              src="./assets/featured project img (8).png"
+              alt="Featured project screenshot footer section"
+            />
+          </div>
+        </div>
+      </section>
+      <section class="work container section">
+        <h2 class="work__title">Projects</h2>
+        <p class="work__description">
+          I truly bilive the quote "The only way to do great work is to love
+          what you do." - Steve Jobs, and I really love my job, this section
+          displays my work and compassion about it
+        </p>
+        <div class="work__container">
+          <!-- project 1 -->
+          <h3 class="work__project-title">Swiggy Clone</h3>
+          <div class="work__img-wrapper work__image1">
+            <img
+              loading="lazy"
+              class="work__image"
+              src="./assets/Project (1).png"
+              alt="Project 1 Swiggy Clone"
+            />
+          </div>
+          <div class="work__project work__content1">
+            <h3 class="work__project-subtitle">Swiggy Clone</h3>
+            <div class="work__project-description1">
+              <p>
+                Experience the essence of convenience with our swiggy.com
+                website clone - a seamless HTML and CSS masterpiece.
+              </p>
+            </div>
+            <div class="work__project-description2">
+              <p>
+                This swiggy clone is made with Html and css only, it looks
+                exactly like the original swiggy.com website and has all the
+                nessesary animations that gives the website a professional look
+                and feel.
+              </p>
+            </div>
+            <a
+              href="https://bhuminandan.github.io/Swiggy-Clone-HTML-CSS/"
+              class="btn work__project-btn"
+              target="_blank"
+              >Website</a
+            >
+          </div>
+
+          <!-- project 2 -->
+          <h3 class="work__project-title">Boostrap Portfolio</h3>
+          <div class="work__img-wrapper work__image2">
+            <img
+              loading="lazy"
+              class="work__image"
+              src="./assets/Project (2).png"
+              alt="Project 1 Bootstrap Portfolio"
+            />
+          </div>
+          <div class="work__project work__content2">
+            <h3 class="work__project-subtitle">Boostrap Portfolio</h3>
+            <div class="work__project-description1">
+              <p>
+                This is my first full fledged responsive website i made using
+                bootstrap.
+              </p>
+            </div>
+            <div class="work__project-description2">
+              <p>
+                I have leveraged the features of bootstrap while making it. Its
+                simple and clean design looks amazing and perfect for bigginer
+                portfolio.
+              </p>
+            </div>
+            <a
+              href="https://bhuminandan.github.io/Portfolio-bootstrap/"
+              class="btn work__project-btn"
+              target="_blank"
+              >Website</a
+            >
+          </div>
+
+          <!-- project 3 -->
+          <h3 class="work__project-title">Blinkit Clone</h3>
+          <div class="work__img-wrapper work__image3">
+            <img
+              loading="lazy"
+              class="work__image"
+              src="./assets/Project (3).png"
+              alt="Project 1 Blinkit Clone"
+            />
+          </div>
+          <div class="work__project work__content3">
+            <h3 class="work__project-subtitle">Blinkit Clone</h3>
+            <div class="work__project-description1">
+              <p>
+                This blink-it clone is made with pure Html and css with all the
+                exactly similar animations and cards used on official
+                blinkit.com website
+              </p>
+            </div>
+            <div class="work__project-description2">
+              <p>
+                The best part about this clone is, it is fully responsive to all
+                the device, and this makes it one of my favourite projects
+              </p>
+            </div>
+            <a
+              href="https://bhuminandan.github.io/blinkit-clone/"
+              class="btn work__project-btn"
+              target="_blank"
+              >Website</a
+            >
+          </div>
+
+          <!-- project 4 -->
+          <h3 class="work__project-title">Pizza Restraurant</h3>
+          <div class="work__img-wrapper work__image4">
+            <img
+              loading="lazy"
+              class="work__image"
+              src="./assets/Project (4).png"
+              alt="Project 1 Pizza Restraurant"
+            />
+          </div>
+          <div class="work__project work__content4">
+            <h3 class="work__project-subtitle">Pizza Restraurant</h3>
+            <div class="work__project-description1">
+              <p>
+                This website is integration of html and css and boostrap, which
+                makes it a completely responsive website
+              </p>
+            </div>
+            <div class="work__project-description2">
+              <p>
+                Dive into our interactive menu section where HTML and CSS bring
+                our pizzas to life with vivid descriptions and enticing imagery.
+              </p>
+            </div>
+            <a
+              href="https://bhuminandan.github.io/PizzaRestraurant/"
+              class="btn work__project-btn"
+              target="_blank"
+              >Website</a
+            >
+          </div>
+
+          <!-- project 5 -->
+          <h3 class="work__project-title">UsabilityHub Hero Section</h3>
+          <div class="work__img-wrapper work__image5">
+            <img
+              loading="lazy"
+              class="work__image"
+              src="./assets/Project (5).png"
+              alt="Project 1 Usability Hero Section Clone"
+            />
+          </div>
+          <div class="work__project work__content5">
+            <h3 class="work__project-subtitle">UsabilityHub Hero Section</h3>
+            <div class="work__project-description1">
+              <p>
+                This is one of my first projects after learning the html and
+                css.
+              </p>
+            </div>
+            <div class="work__project-description2">
+              <p>
+                It has a basic layout of hero section of popular website,
+                UsabilityHus.com, this project has tought me how to align divs
+                and images.
+              </p>
+            </div>
+            <a
+              href="https://bhuminandan.github.io/UsabilityHub-Clone/"
+              class="btn work__project-btn"
+              target="_blank"
+              >Website</a
+            >
+          </div>
+        </div>
+      </section>
+      <section id="contact" class="contact container section">
+        <h2 class="contact__title">Get In Contact</h2>
+        <p class="contact__description">
+          Feel free to reach out to us using the information provided below. For
+          any inquiries, suggestions, or feedback, please don't hesitate to
+          contact us via email at
+          <a
+            href="mailto:mbhumione9545@gmail.com"
+            target="_blank"
+            style="text-decoration: none"
+            >Mail.</a
+          >
+          Additionally, you can also connect with us on LinkedIn by clicking the
+          button below, which will direct you to our profile.
+        </p>
+        <a href="https://www.linkedin.com/in/bhooomi/" class="contact__btn btn"
+          >LinkedIn</a
+        >
+      </section>
+    </main>
+
+    <footer class="footer container section">
+      <h3 class="footer__title">~Bhuminandan Misal~</h3>
+    </footer>
+
+    <script src="./src/script.js"></script>
+    <script src="./src/utils/mobile-nav.js"></script>
+  </body>
+</html>
