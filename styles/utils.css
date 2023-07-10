@@ -25,7 +25,7 @@
     
  } */
 
-.btn {
+ .btn {
   display: inline-block;
   font-weight: 600;
   background-color: var(--clr-rose);
@@ -51,8 +51,8 @@
   width: 100%;
   margin-left: auto;
   margin-right: auto;
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
 }
 
 .section{
